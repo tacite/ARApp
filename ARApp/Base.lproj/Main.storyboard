@@ -23,7 +23,6 @@
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="O6e-eA-FXL" appends="YES" id="hvA-CN-eVl"/>
-                                    <outletCollection property="gestureRecognizers" destination="gL9-ht-36l" appends="YES" id="oXG-EX-Hmj"/>
                                 </connections>
                             </arscnView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eD5-z5-1Po">
@@ -57,11 +56,6 @@
                 <tapGestureRecognizer id="O6e-eA-FXL">
                     <connections>
                         <action selector="tap:" destination="BYZ-38-t0r" id="veQ-rX-Gjx"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer numberOfTapsRequired="2" id="gL9-ht-36l">
-                    <connections>
-                        <action selector="tapTwo:" destination="BYZ-38-t0r" id="XwW-kg-Poi"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
